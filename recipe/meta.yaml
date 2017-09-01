@@ -28,6 +28,12 @@ about:
     home: https://verboselogs.readthedocs.io
     license: MIT
     summary: "Verbose logging level for Python's logging module."
+    description: |
+      The verboselogs package extends Python’s logging module to add the log 
+      levels NOTICE, SPAM, SUCCESS and VERBOSE
+    doc_url: https://verboselogs.readthedocs.io
+    dev_url: https://github.com/xolox/python-verboselogs
+    doc_source_url: https://github.com/xolox/python-verboselogs/tree/master/docs
 
 extra:
     recipe-maintainers:
