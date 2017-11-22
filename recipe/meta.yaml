@@ -1,4 +1,4 @@
-{% set version = "1.4" %}
+{% set version = "1.7" %}
 
 package:
     name: verboselogs
@@ -6,8 +6,8 @@ package:
 
 source:
     fn: verboselogs-{{ version }}.tar.gz
-    url: https://files.pythonhosted.org/packages/cd/b8/d87bbd0eab68c1e13ca7b2a0f38a986ed7f16b006f7bc6115e8043f514fe/verboselogs-1.4.tar.gz
-    md5: 811da460e30f3abd51ada927d6da8b48
+    url: https://pypi.io/packages/source/v/verboselogs/verboselogs-{{ version }}.tar.gz
+    sha256: e33ddedcdfdafcb3a174701150430b11b46ceb64c2a9a26198c76a156568e427
 
 build:
     number: 0
